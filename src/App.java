@@ -25,5 +25,13 @@ public class App {
         System.out.println("MyIntValue = " + myIntValue);
         System.out.println("MyFloatValue = " + myFloatValue);
         System.out.println("MyDoubleValue =" + myDoubleValue); 
+
+        double pounds = 200d; 
+
+        double kilogram = 0.45359237d; 
+
+        double total = pounds * kilogram; 
+
+        System.out.println(total);
     }
 }
